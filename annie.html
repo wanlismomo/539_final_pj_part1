@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Selector</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <!-- Background Image -->
+  <!-- <div>
+    <img src='image/main/background.jpg' alt="background" class="background-image">
+  </div> -->
+  
+ <!-- Return to Main Menu Button -->
+ <button class="return-btn" onclick="location.href='index.html';">Return to Main Menu</button>
+
+  <!-- Annie Group -->
+  <div id="annie" class="group active">
+    <div class="group-header">
+      <img src="image/annie/main.jpeg" alt="Annie Main Image" class="main-image">
+    </div>
+    <div class="container">
+      <div class="left-panel">
+        <div class="box" data-video="videos/annie/1.mp4" data-text="Annie Video 1">
+          <img src="image/annie/1.webp" alt="Video 1">
+        </div>
+        <div class="box" data-video="videos/annie/2.mp4" data-text="Annie Video 2">
+          <img src="image/annie/2.webp" alt="Video 2">
+        </div>
+        <div class="box" data-video="videos/annie/3.mp4" data-text="Annie Video 3">
+          <img src="image/annie/3.webp" alt="Video 3">
+        </div>
+        <div class="box" data-video="videos/annie/4.mp4" data-text="Annie Video 4">
+          <img src="image/annie/4.webp" alt="Video 4">
+        </div>
+        <div class="box" data-video="videos/annie/5.mp4" data-text="Annie Video 5">
+          <img src="image/annie/5.webp" alt="Video 5">
+        </div>
+      </div>
+
+    <!-- Middle Panel -->
+    <div class="middle-panel">
+        <div class="description-box" id="description-1">
+        <p id="image-description-1">After releasing 4 skills, the next damage class skill will stun the enemy for 1.25 seconds.</p>
+        </div>
+        <div class="description-box" id="description-2">
+        <p id="image-description-2">Throws a fireball that explodes on hit and deals (80/130/180/230 + 80% AP) magic damage to all enemies within the blast range. If an enemy is defeated by this skill, return the mana cost of the skill and halve its cooldown.</p>
+        </div>
+        <div class="description-box" id="description-3">
+        <p id="image-description-3">Casts a bolt of flames into a cone-shaped area, dealing (70/130/190/250 + 70% AP) magic damage to all enemies in the area.</p>
+        </div>
+        <div class="description-box" id="description-4">
+        <p id="image-description-4">Provides Tibbs or a right hero with a 3 second shield from (50/110/170/230 + 40% AP) damage. Enemies that perform a normal attack on the shield will take (25/40/55/70 + 30% AP) magic damage. Quickly tap this skill to provide yourself with a shield. This cannot be used on Heroic Doppelganger.</p>
+        </div>
+        <div class="description-box" id="description-5">
+        <p id="image-description-5">Summons Tibus, dealing (140/250/360 + 60% AP) magic damage to enemies in the target area. For the next 30 seconds, Tibbs will scorch nearby enemies for (20/30/40 + 10% AP) magic damage per second, while its normal attacks deal (50/75/100 + 20% AP) magic damage to enemies. Tibbs triggers the Rage effect (gaining 100% movement speed bonus and 210% attack speed bonus) in the following situations: when it is first summoned; when Anne uses a skill with [Fire Thirst] on an enemy hero; and when Anne is killed in battle. Tap the skill again: to control Tibbs' movement.</p>
+        </div>
+    </div>
+  
+
+      <div class="right-panel">
+        <div class="video-container">
+          <video id="annie-main-video" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support video playback.
+          </video>
+        </div>
+        <div class="text-container">
+          <p id="annie-video-description">Select a video from the left.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+</html>

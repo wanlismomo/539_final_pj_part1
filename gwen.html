@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Selector</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <!-- Background Image -->
+  <!-- <div>
+    <img src='image/main/background.jpg' alt="background" class="background-image">
+  </div> -->
+
+ <!-- Return to Main Menu Button -->
+ <button class="return-btn" onclick="location.href='index.html';">Return to Main Menu</button>
+
+  <!-- Gwen Group -->
+  <div id="gwen" class="group active">
+    <div class="group-header">
+      <img src="image/gwen/main.jpeg" alt="Gwen Main Image" class="main-image">
+    </div>
+    <div class="container">
+      <div class="left-panel">
+        <div class="box" data-video="videos/gwen/1.mp4" data-text="Gwen Video 1">
+          <img src="image/gwen/1.webp" alt="Video 1">
+        </div>
+        <div class="box" data-video="videos/gwen/2.mp4" data-text="Gwen Video 2">
+          <img src="image/gwen/2.webp" alt="Video 2">
+        </div>
+        <div class="box" data-video="videos/gwen/3.mp4" data-text="Gwen Video 3">
+          <img src="image/gwen/3.webp" alt="Video 3">
+        </div>
+        <div class="box" data-video="videos/gwen/4.mp4" data-text="Gwen Video 4">
+          <img src="image/gwen/4.webp" alt="Video 4">
+        </div>
+        <div class="box" data-video="videos/gwen/5.mp4" data-text="Gwen Video 5">
+          <img src="image/gwen/5.webp" alt="Video 5">
+        </div>
+      </div>
+
+          <!-- Middle Panel -->
+    <div class="middle-panel">
+      <div class="description-box" id="description-1">
+      <p id="image-description-1">Attacks deal an additional 1% of the target's maximum life value in magic damage. When dealing damage to an enemy hero, restore to yourself a number of life points equal to 70% of the damage dealt by this skill, up to a maximum of 12.</p>
+      </div>
+      <div class="description-box" id="description-2">
+      <p id="image-description-2">Passive: Stacks 1 tier per attack that hits an enemy (up to 4 tiers for 6 seconds). Active: performs two shears, one more for each tier consumed. Each shear deals 10 magic damage, the last shear deals 50 magic damage. The centre of each attack deals true damage and inflicts a thousand piercings on enemies that hit.</p>
+      </div>
+      <div class="description-box" id="description-3">
+      <p id="image-description-3">Summons a holy mist that causes you to become unselectable to all enemies outside the area until you leave the area location. Gain 11 Armour and Magic Resistance while in the Sacred Mist. The first time you attempt to leave the range of the holy mist on your own, the holy mist will move with you.</p>
+      </div>
+      <div class="description-box" id="description-4">
+      <p id="image-description-4">Launches a dash and intensifies the next pummelling attack for 4 seconds. Enhanced Punch gains a 20% attack speed bonus, a 10 magic damage bonus on hit, and a 100 range bonus. The first Enhanced Punch that hits an enemy returns 20% of this skill's cooldown.</p>
+      </div>
+      <div class="description-box" id="description-5">
+      <p id="image-description-5">First cast: shoots 1 needle, dealing 30 magic damage and 30% slow for 1.5 seconds, and inflicts Thousand Punctures on all enemies that hit. This skill can be re-cast 2 times. Re-cast: shoots 3 needles, dealing a total of 90 magic damage. Third cast: shoots 5 needles, dealing a total of 150 magic damage.</p>
+      </div>
+  </div>
+      <div class="right-panel">
+        <div class="video-container">
+          <video id="gwen-main-video" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support video playback.
+          </video>
+        </div>
+        <div class="text-container">
+          <p id="gwen-video-description">Select a video from the left.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Selector</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Background Image -->
+<!-- <div>
+  <img src='image/main/background.jpg' alt="background" class="background-image">
+</div> -->
+
+ <!-- Return to Main Menu Button -->
+ <button class="return-btn" onclick="location.href='index.html';">Return to Main Menu</button>
+ 
+  <!-- Morgana Group -->
+  <div id="morgana" class="group active">
+    <div class="group-header">
+      <img src="image/morgana/main.jpeg" alt="Morgana Main Image" class="main-image">
+    </div>
+    <div class="container">
+      <div class="left-panel">
+        <div class="box" data-video="videos/morgana/1.mp4" data-text="Morgana Video 1">
+          <img src="image/morgana/1.webp" alt="Video 1">
+        </div>
+        <div class="box" data-video="videos/morgana/2.mp4" data-text="Morgana Video 2">
+          <img src="image/morgana/2.webp" alt="Video 2">
+        </div>
+        <div class="box" data-video="videos/morgana/3.mp4" data-text="Morgana Video 3">
+          <img src="image/morgana/3.webp" alt="Video 3">
+        </div>
+        <div class="box" data-video="videos/morgana/4.mp4" data-text="Morgana Video 4">
+          <img src="image/morgana/4.webp" alt="Video 4">
+        </div>
+        <div class="box" data-video="videos/morgana/5.mp4" data-text="Morgana Video 5">
+          <img src="image/morgana/5.webp" alt="Video 5">
+        </div>
+      </div>
+
+          <!-- Middle Panel -->
+    <div class="middle-panel">
+      <div class="description-box" id="description-1">
+      <p id="image-description-1">Morgana returns 18% of her lifesteal based on spell damage dealt to enemy heroes, large minions, and large wilds.</p>
+      </div>
+      <div class="description-box" id="description-2">
+      <p id="image-description-2">Shoots a missile filled with dark energy into the target area, binding the first enemy it encounters for 2/2.25/2.5/2.75/3 seconds, dealing 80/135/190/245/300 (+0.9 AP) points of magic damage.</p>
+      </div>
+      <div class="description-box" id="description-3">
+      <p id="image-description-3">Curses an area for 5 seconds. Enemies in the area will take 16/32/48/64/80 (+0.7 AP) to 24/48/72/96/120 (+1.89 AP) magic damage every second, which depends on how much life the enemy has lost. This skill returns 5% of its cooldown when it hits enemy heroes, large minions, and large wilds. Deals 150% damage to wild monsters.</p>
+      </div>
+      <div class="description-box" id="description-4">
+      <p id="image-description-4">Casts a protective shield on friendly heroes for 5 seconds. Protective Shield absorbs 80/135/190/245/300 (+0.7 AP) magic damage and blocks Restriction skills until the shield is broken.</p>
+      </div>
+      <div class="description-box" id="description-5">
+      <p id="image-description-5">Apply Dark Shackles to nearby enemy heroes, dealing them 175/250/325 (+0.7AP) Magic Damage and 20% slow for 3 sec. After 3 sec, they take an additional 175/250/325 (+0.7P) Magic Damage and are stunned for 1.5 sec. Enemy heroes can break this shackle by running away from Morgana.</p>
+      </div>
+  </div>
+      <div class="right-panel">
+        <div class="video-container">
+          <video id="morgana-main-video" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support video playback.
+          </video>
+        </div>
+        <div class="text-container">
+          <p id="morgana-video-description">Select a video from the left.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script/script.js"></script>
+</body>
+</html>
